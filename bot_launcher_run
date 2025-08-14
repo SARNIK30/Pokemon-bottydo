@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Запуск бота в фоновом режиме
+python bot_launcher.py &
+
+# Сохраняем PID фонового процесса
+echo $! > bot_launcher.pid
+
+# Выводим сообщение о запуске
+echo "Бот запущен в фоновом режиме с PID $(cat bot_launcher.pid)"
+echo "Для просмотра логов используйте команду: tail -f bot_launcher.log"
+echo "Для остановки бота используйте команду: kill $(cat bot_launcher.pid)"

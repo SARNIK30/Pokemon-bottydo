@@ -1,0 +1,93 @@
+2025-03-28 22:55:03,629 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-28 22:55:03,630 - httpx - DEBUG - load_verify_locations cafile='/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/cacert.pem'
+2025-03-28 22:55:03,644 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-28 22:55:03,645 - httpx - DEBUG - load_verify_locations cafile='/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/cacert.pem'
+2025-03-28 22:55:03,665 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-28 22:55:03,666 - httpx - DEBUG - load_verify_locations cafile='/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/cacert.pem'
+2025-03-28 22:55:03,685 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-28 22:55:03,686 - httpx - DEBUG - load_verify_locations cafile='/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/cacert.pem'
+2025-03-28 22:55:03,701 - storage - INFO - Loaded 2 users from data/users.json
+2025-03-28 22:55:03,701 - storage - INFO - Loaded 6 custom pokemons from data/custom_pokemons.json
+2025-03-28 22:55:03,702 - storage - INFO - Loaded 2 promocodes from data/promocodes.json
+2025-03-28 22:55:03,702 - storage - INFO - Data initialization complete
+2025-03-28 22:55:03,704 - bot - INFO - Все обработчики зарегистрированы
+2025-03-28 22:55:03,704 - __main__ - INFO - ===== Запуск бота Pokémon в режиме Workflow =====
+2025-03-28 22:55:03,705 - __main__ - INFO - Версия Python: 3.11.10 (main, Sep  7 2024, 01:03:31) [GCC 13.3.0]
+2025-03-28 22:55:03,705 - __main__ - INFO - Время запуска: 2025-03-28 22:55:03.705116
+2025-03-28 22:55:03,705 - asyncio - DEBUG - Using selector: EpollSelector
+2025-03-28 22:55:03,705 - __main__ - INFO - Запуск бота Pokémon (попытка #1): 2025-03-28 22:55:03.705704
+2025-03-28 22:55:03,705 - __main__ - INFO - Запуск бота в режиме поллинга...
+2025-03-28 22:55:03,706 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-28 22:55:03,707 - httpx - DEBUG - load_verify_locations cafile='/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/cacert.pem'
+2025-03-28 22:55:03,718 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-28 22:55:03,719 - httpx - DEBUG - load_verify_locations cafile='/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/cacert.pem'
+2025-03-28 22:55:03,730 - telegram.ext.Application - WARNING - The callback is already registered as an error handler. Ignoring.
+2025-03-28 22:55:03,730 - bot - INFO - Все обработчики зарегистрированы
+2025-03-28 22:55:03,731 - telegram.ext.ExtBot - DEBUG - Entering: get_me
+2025-03-28 22:55:03,737 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-03-28 22:55:03,913 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fb026205d50>
+2025-03-28 22:55:03,913 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fb02635f6e0> server_hostname='api.telegram.org' timeout=5.0
+2025-03-28 22:55:04,058 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fb026205c90>
+2025-03-28 22:55:04,058 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:04,059 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-28 22:55:04,059 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-28 22:55:04,059 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-28 22:55:04,059 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:04,202 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 28 Mar 2025 22:55:04 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'251'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-03-28 22:55:04,203 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7942226572:AAHDdoOsbPcFhe19Ij5yYFaExtNGCjU68tI/getMe "HTTP/1.1 200 OK"
+2025-03-28 22:55:04,203 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-28 22:55:04,203 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-28 22:55:04,203 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-28 22:55:04,203 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-28 22:55:04,204 - telegram.ext.ExtBot - DEBUG - User(api_kwargs={'can_connect_to_business': False, 'has_main_web_app': False}, can_join_groups=True, can_read_all_group_messages=False, first_name='PokeMania', id=7942226572, is_bot=True, supports_inline_queries=False, username='Poke1mon_bot')
+2025-03-28 22:55:04,204 - telegram.ext.ExtBot - DEBUG - Exiting: get_me
+2025-03-28 22:55:04,204 - telegram.ext.ExtBot - DEBUG - This Bot is already initialized.
+2025-03-28 22:55:04,204 - telegram.ext.Application - INFO - Application started
+2025-03-28 22:55:04,204 - telegram.ext.Updater - DEBUG - Updater started (polling)
+2025-03-28 22:55:04,204 - telegram.ext.Updater - DEBUG - Start network loop retry bootstrap del webhook
+2025-03-28 22:55:04,205 - telegram.ext.Updater - DEBUG - Deleting webhook
+2025-03-28 22:55:04,205 - telegram.ext.ExtBot - DEBUG - Entering: delete_webhook
+2025-03-28 22:55:04,205 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:04,206 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-28 22:55:04,206 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-28 22:55:04,206 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-28 22:55:04,206 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:04,349 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 28 Mar 2025 22:55:04 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'68'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-03-28 22:55:04,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7942226572:AAHDdoOsbPcFhe19Ij5yYFaExtNGCjU68tI/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-28 22:55:04,350 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-28 22:55:04,350 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-28 22:55:04,350 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-28 22:55:04,350 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-28 22:55:04,350 - telegram.ext.ExtBot - DEBUG - True
+2025-03-28 22:55:04,350 - telegram.ext.ExtBot - DEBUG - Exiting: delete_webhook
+2025-03-28 22:55:04,350 - telegram.ext.Updater - DEBUG - Bootstrap done
+2025-03-28 22:55:04,351 - telegram.ext.Updater - DEBUG - Waiting for polling to start
+2025-03-28 22:55:04,351 - telegram.ext.Updater - DEBUG - Polling updates from Telegram started
+2025-03-28 22:55:04,351 - __main__ - INFO - Поллинг бота успешно запущен. Бот работает.
+2025-03-28 22:55:04,351 - telegram.ext.Updater - DEBUG - Start network loop retry getting Updates
+2025-03-28 22:55:04,351 - telegram.ext.ExtBot - DEBUG - Entering: get_updates
+2025-03-28 22:55:04,352 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-03-28 22:55:04,562 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fb0265e3810>
+2025-03-28 22:55:04,562 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fb02635f800> server_hostname='api.telegram.org' timeout=5.0
+2025-03-28 22:55:04,708 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fb0263a3050>
+2025-03-28 22:55:04,708 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:04,709 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-28 22:55:04,709 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-28 22:55:04,709 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-28 22:55:04,709 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:05,325 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 28 Mar 2025 22:55:05 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2149'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-03-28 22:55:05,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7942226572:AAHDdoOsbPcFhe19Ij5yYFaExtNGCjU68tI/getUpdates "HTTP/1.1 200 OK"
+2025-03-28 22:55:05,326 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-28 22:55:05,326 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-28 22:55:05,326 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-28 22:55:05,326 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-28 22:55:05,326 - telegram.ext.ExtBot - DEBUG - Getting updates: [798904226]
+2025-03-28 22:55:05,327 - telegram.ext.ExtBot - DEBUG - (Update(callback_query=CallbackQuery(chat_instance='-6413363093994866228', data='admin_create_promocode', from_user=User(first_name='ㅤ ㅤㅤㅤㅤ ㅤ', id=5953677116, is_bot=False, language_code='ru', username='Sarner30'), id='7124104433806894988', message=Message(channel_chat_created=False, chat=Chat(id=-1002435502062, is_forum=True, title='Клан АБОБУСЫ', type=<ChatType.SUPERGROUP>), date=datetime.datetime(2025, 3, 28, 22, 55, 4, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=21, offset=3, type=<MessageEntityType.BOLD>),), from_user=User(first_name='PokeMania', id=7942226572, is_bot=True, username='Poke1mon_bot'), group_chat_created=False, message_id=12550, message_thread_id=12549, reply_markup=InlineKeyboardMarkup(inline_keyboard=((InlineKeyboardButton(callback_data='admin_create_pokemon', text='🧠 Создать уникального покемона'),), (InlineKeyboardButton(callback_data='admin_give_pokemon', text='🎁 Выдать покемона игроку'),), (InlineKeyboardButton(callback_data='admin_change_balance', text='💰 Изменить баланс пользователя'),), (InlineKeyboardButton(callback_data='admin_create_promocode', text='🎁 Создать промокод'),))), reply_to_message=Message(channel_chat_created=False, chat=Chat(id=-1002435502062, is_forum=True, title='Клан АБОБУСЫ', type=<ChatType.SUPERGROUP>), date=datetime.datetime(2025, 3, 28, 22, 55, 3, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='ㅤ ㅤㅤㅤㅤ ㅤ', id=5953677116, is_bot=False, language_code='ru', username='Sarner30'), group_chat_created=False, message_id=12549, supergroup_chat_created=False, text='/admin'), supergroup_chat_created=False, text='👑 Панель администратора\n\nВыберите действие:')), update_id=798904226),)
+2025-03-28 22:55:05,328 - telegram.ext.ExtBot - DEBUG - Exiting: get_updates
+2025-03-28 22:55:05,328 - telegram.ext.ExtBot - DEBUG - Entering: get_updates
+2025-03-28 22:55:05,330 - telegram.ext.Application - DEBUG - Processing update Update(callback_query=CallbackQuery(chat_instance='-6413363093994866228', data='admin_create_promocode', from_user=User(first_name='ㅤ ㅤㅤㅤㅤ ㅤ', id=5953677116, is_bot=False, language_code='ru', username='Sarner30'), id='7124104433806894988', message=Message(channel_chat_created=False, chat=Chat(id=-1002435502062, is_forum=True, title='Клан АБОБУСЫ', type=<ChatType.SUPERGROUP>), date=datetime.datetime(2025, 3, 28, 22, 55, 4, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=21, offset=3, type=<MessageEntityType.BOLD>),), from_user=User(first_name='PokeMania', id=7942226572, is_bot=True, username='Poke1mon_bot'), group_chat_created=False, message_id=12550, message_thread_id=12549, reply_markup=InlineKeyboardMarkup(inline_keyboard=((InlineKeyboardButton(callback_data='admin_create_pokemon', text='🧠 Создать уникального покемона'),), (InlineKeyboardButton(callback_data='admin_give_pokemon', text='🎁 Выдать покемона игроку'),), (InlineKeyboardButton(callback_data='admin_change_balance', text='💰 Изменить баланс пользователя'),), (InlineKeyboardButton(callback_data='admin_create_promocode', text='🎁 Создать промокод'),))), reply_to_message=Message(channel_chat_created=False, chat=Chat(id=-1002435502062, is_forum=True, title='Клан АБОБУСЫ', type=<ChatType.SUPERGROUP>), date=datetime.datetime(2025, 3, 28, 22, 55, 3, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='ㅤ ㅤㅤㅤㅤ ㅤ', id=5953677116, is_bot=False, language_code='ru', username='Sarner30'), group_chat_created=False, message_id=12549, supergroup_chat_created=False, text='/admin'), supergroup_chat_created=False, text='👑 Панель администратора\n\nВыберите действие:')), update_id=798904226)
+2025-03-28 22:55:05,330 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-28 22:55:05,331 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-28 22:55:05,331 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-28 22:55:05,331 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-28 22:55:05,331 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
