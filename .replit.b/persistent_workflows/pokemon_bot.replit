@@ -1,0 +1,14 @@
+run = "python3 pokemon_bot_workflow.py"
+language = "python3"
+persistent = true
+onBoot = true
+keep-alive-timeout-ms = 30000
+autostart = true
+
+[persistent]
+# The start behavior when the bot is already running, "restart" (default) or "reconnect"
+action = "restart"
+
+[onBoot]
+# The time to wait before starting the bot, in milliseconds
+wait-ms = 5000

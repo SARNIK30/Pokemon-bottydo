@@ -1,0 +1,6 @@
+name: pokemon_bot
+description: Телеграм бот с покемонами, работающий в режиме поллинга
+run: python3 pokemon_bot_workflow.py
+persistent: true
+onBoot: true
+language: python3

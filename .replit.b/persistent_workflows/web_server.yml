@@ -1,0 +1,6 @@
+name: web_server
+description: Веб-сервер для мониторинга бота покемонов
+run: python3 ping_endpoint.py
+persistent: true
+onBoot: true
+language: python3
