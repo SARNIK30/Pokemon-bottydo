@@ -1,0 +1,26 @@
+{
+  "startbot": {
+    "code": "startbot",
+    "reward_type": "coins",
+    "reward_value": 50000,
+    "reward_amount": 1,
+    "created_by": 5953677116,
+    "created_at": 1743202434.434898,
+    "expires_at": null,
+    "max_uses": null,
+    "use_count": 0,
+    "description": "\u041f\u0440\u043e\u043c\u043e\u043a\u043e\u0434 \u043d\u0430 50000 \u043c\u043e\u043d\u0435\u0442"
+  },
+  "sarnerilove": {
+    "code": "sarnerilove",
+    "reward_type": "trainer",
+    "reward_value": "sarner",
+    "reward_amount": 1,
+    "created_by": 5953677116,
+    "created_at": 1743200360.369039,
+    "expires_at": null,
+    "max_uses": null,
+    "use_count": 0,
+    "description": "\u041f\u0440\u043e\u043c\u043e\u043a\u043e\u0434 \u043d\u0430 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0442\u0440\u0435\u043d\u0435\u0440\u0430 \u0421\u0410\u0420\u041d\u0415\u0420"
+  }
+}

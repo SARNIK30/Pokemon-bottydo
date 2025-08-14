@@ -1,0 +1,90 @@
+{
+  "6107291796": {
+    "user_id": 6107291796,
+    "balance": 3000,
+    "pokemons": [
+      {
+        "pokemon_id": "34d10d40-e2e5-43d5-b600-262d1f25dfc6",
+        "name": "Charmander",
+        "types": [
+          "fire"
+        ],
+        "attack": 52,
+        "defense": 43,
+        "hp": 39,
+        "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        "custom": false
+      }
+    ],
+    "main_pokemon": {
+      "pokemon_id": "34d10d40-e2e5-43d5-b600-262d1f25dfc6",
+      "name": "Charmander",
+      "types": [
+        "fire"
+      ],
+      "attack": 52,
+      "defense": 43,
+      "hp": 39,
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "custom": false
+    },
+    "caught_pokemon_count": 1,
+    "trainer": null,
+    "trainer_level": 0,
+    "league": 1,
+    "pokeballs": {},
+    "used_promocodes": [],
+    "username": "Foptor45"
+  },
+  "5953677116": {
+    "user_id": 5953677116,
+    "balance": 2000,
+    "pokemons": [
+      {
+        "pokemon_id": "0ebfee84-fdfd-41fc-a7ca-92879bdc20aa",
+        "name": "Charmander",
+        "types": [
+          "fire"
+        ],
+        "attack": 52,
+        "defense": 43,
+        "hp": 39,
+        "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        "custom": false
+      },
+      {
+        "pokemon_id": "6e7b1543-f47a-4999-a097-f71191de48f0",
+        "name": "Phione",
+        "types": [
+          "water"
+        ],
+        "attack": 80,
+        "defense": 80,
+        "hp": 80,
+        "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/489.png",
+        "custom": false
+      }
+    ],
+    "main_pokemon": {
+      "pokemon_id": "0ebfee84-fdfd-41fc-a7ca-92879bdc20aa",
+      "name": "Charmander",
+      "types": [
+        "fire"
+      ],
+      "attack": 52,
+      "defense": 43,
+      "hp": 39,
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "custom": false
+    },
+    "caught_pokemon_count": 2,
+    "trainer": null,
+    "trainer_level": 0,
+    "league": 1,
+    "pokeballs": {},
+    "used_promocodes": [
+      "startbot"
+    ],
+    "username": "Sarner30"
+  }
+}
