@@ -1,0 +1,16 @@
+{
+  "workflowConfig": {
+    "pokemon_bot": {
+      "run": "python3 pokemon_bot_workflow.py",
+      "persistent": true,
+      "onBoot": true,
+      "keepRunning": true
+    },
+    "web_server": {
+      "run": "python3 ping_endpoint.py",
+      "persistent": true,
+      "onBoot": true,
+      "keepRunning": true
+    }
+  }
+}
