@@ -1,0 +1,5 @@
+run = "python3 pokemon_bot_workflow.py"
+language = "python3"
+persistent = true
+onBoot = true
+keepRunning = true

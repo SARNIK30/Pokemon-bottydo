@@ -1,0 +1,25 @@
+{
+  "workflows": [
+    {
+      "name": "pokemon_bot",
+      "persistent": true,
+      "onBoot": true,
+      "command": "python3 pokemon_bot_workflow.py",
+      "restartOn": {
+        "fileChange": {
+          "paths": ["pokemon_bot_workflow.py", "bot.py", "config.py", "storage.py"]
+        }
+      },
+      "ignorePorts": true,
+      "quiet": false
+    },
+    {
+      "name": "web_server",
+      "persistent": true,
+      "onBoot": true,
+      "command": "python3 ping_endpoint.py",
+      "ignorePorts": false,
+      "quiet": false
+    }
+  ]
+}
