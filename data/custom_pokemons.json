@@ -1,0 +1,100 @@
+{
+  "db5b4844-4c1e-4e44-8c68-14ffe827c03e": {
+    "id": "acb95026-a66e-446f-ae58-5e630d6eb6cd",
+    "name": "sarner",
+    "types": [
+      "dragon"
+    ],
+    "image_url": "https://www.imghippo.com/i/oXbB3210fZo.jpg",
+    "stats": {
+      "attack": 777,
+      "defense": 777,
+      "hp": 777
+    },
+    "custom": true
+  },
+  "ae375847-3dcd-4d27-b779-4fe1232eb4e7": {
+    "id": "1e7305f7-c7dd-4498-9b56-8a8daa03b148",
+    "name": "sarner",
+    "types": [
+      "\u043e\u0433\u043e\u043d\u044c",
+      "\u0432\u043e\u0434\u0430",
+      "\u0444\u0435\u044f",
+      "\u0441\u0442\u0430\u043b\u044c",
+      "\u0434\u0440\u0430\u043a\u043e\u043d"
+    ],
+    "image_url": "https://www.imghippo.com/i/LH4437Nc.jpg",
+    "stats": {
+      "attack": 777,
+      "defense": 777,
+      "hp": 777
+    },
+    "custom": true
+  },
+  "b005510d-b6bc-4cab-917a-da3fa1991fff": {
+    "id": "0189f39c-2c8b-40c9-9485-0d5faee2324e",
+    "name": "sarner",
+    "types": [
+      "\u0441\u0442\u0430\u043b\u044c",
+      "\u0434\u0440\u0430\u043a\u043e\u043d\u0438\u0439"
+    ],
+    "image_url": "https://i.imghippo.com/files/oXbB3210fZo.jpg",
+    "stats": {
+      "attack": 113,
+      "defense": 113,
+      "hp": 113
+    },
+    "custom": true
+  },
+  "460bda27-0c31-47f0-b1af-f92a6c1698a0": {
+    "id": "daf9ce7d-aeac-4f1d-907b-93106f684e10",
+    "name": "69",
+    "types": [
+      "\u043e\u0433\u043e\u043d\u044c",
+      "\u043b\u0435\u0442\u0430\u044e\u0449\u0438\u0439"
+    ],
+    "image_url": "https://i.imghippo.com/files/LH4437Nc.jpg",
+    "stats": {
+      "attack": 69,
+      "defense": 69,
+      "hp": 69
+    },
+    "custom": true
+  },
+  "79ab2278-a3fb-4b7e-9802-5309bcf6bb79": {
+    "id": "cf24c33e-0d4c-40ee-aa9c-d1a9c122486d",
+    "name": "SARNER",
+    "types": [
+      "\u043e\u0433\u043e\u043d\u044c",
+      "\u0432\u043e\u0434\u0430",
+      "\u0444\u0435\u044f",
+      "\u0441\u0442\u0430\u043b\u044c",
+      "\u0434\u0440\u0430\u043a\u043e\u043d"
+    ],
+    "image_url": "https://i.imghippo.com/files/DS7932nc.jpg https://i.imghippo.com/files/DS7932nc.jpg",
+    "stats": {
+      "attack": 678,
+      "defense": 888,
+      "hp": 876
+    },
+    "custom": true
+  },
+  "1b23fd65-4e41-44c1-b2e2-bccd1567520f": {
+    "id": "f8581042-01cc-4ece-bac0-3a212f50ae3d",
+    "name": "SUPERSARNERPOKEMON228",
+    "types": [
+      "\u043e\u0433\u043e\u043d\u044c",
+      "\u0432\u043e\u0434\u0430",
+      "\u0444\u0435\u044f",
+      "\u0441\u0442\u0430\u043b\u044c",
+      "\u0434\u0440\u0430\u043a\u043e\u043d"
+    ],
+    "image_url": "https://i.imghippo.com/files/DS7932nc.jpg",
+    "stats": {
+      "attack": 898,
+      "defense": 898,
+      "hp": 898
+    },
+    "custom": true
+  }
+}
