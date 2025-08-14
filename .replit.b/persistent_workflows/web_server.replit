@@ -1,0 +1,14 @@
+run = "python3 ping_endpoint.py"
+language = "python3"
+persistent = true
+onBoot = true
+keep-alive-timeout-ms = 30000
+autostart = true
+
+[persistent]
+# The start behavior when the web server is already running, "restart" (default) or "reconnect"
+action = "restart"
+
+[onBoot]
+# The time to wait before starting the web server, in milliseconds
+wait-ms = 5000
