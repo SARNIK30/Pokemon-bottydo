@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Покемон Телеграм Бот</title>
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h1 class="text-center">Покемон Телеграм Бот</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Пикачу" class="img-fluid pokemon-logo" style="max-width: 200px;">
+                        </div>
+                        
+                        <div class="alert alert-success" role="alert">
+                            <h4 class="alert-heading">Статус бота: Активен!</h4>
+                            <p>Ваш Покемон Телеграм Бот запущен и работает. Вебхук успешно настроен.</p>
+                            <hr>
+                            <p class="mb-0">URL вебхука: <code>{{ webhook_url }}</code></p>
+                        </div>
+                        
+                        <h2 class="mt-4">Возможности</h2>
+                        <ul class="list-group mb-4">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                500 доступных Покемонов
+                                <span class="badge bg-primary rounded-pill">✓</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Коллекция Покемонов
+                                <span class="badge bg-primary rounded-pill">✓</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Битвы Покемонов
+                                <span class="badge bg-primary rounded-pill">✓</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Обмен Покемонами
+                                <span class="badge bg-primary rounded-pill">✓</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Панель администратора
+                                <span class="badge bg-primary rounded-pill">✓</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Система магазина
+                                <span class="badge bg-primary rounded-pill">✓</span>
+                            </li>
+                        </ul>
+                        
+                        <h2 class="mt-4">Доступные команды</h2>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Команда</th>
+                                    <th>Описание</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>/start</code></td>
+                                    <td>Начать игру и выбрать стартового Покемона</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/info</code></td>
+                                    <td>Просмотр статистики тренера</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/pokedex</code></td>
+                                    <td>Просмотр Покедекса</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/battle</code></td>
+                                    <td>Вызвать другого тренера на битву</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/shop</code></td>
+                                    <td>Посетить магазин для покупки предметов</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/promocode [код]</code></td>
+                                    <td>Активировать промокод</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/evolution [покемон]</code></td>
+                                    <td>Эволюционировать Покемона (требуется 3 одинаковых Покемона)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/trade</code></td>
+                                    <td>Обменяться Покемонами с другими тренерами</td>
+                                </tr>
+                                <tr>
+                                    <td><code>/admin</code></td>
+                                    <td>Доступ к панели администратора (только для админов)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        <p>Работает на Pokemon API и Telegram Bot API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
